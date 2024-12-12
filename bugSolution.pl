@@ -1,0 +1,1 @@
+my @array = (1..10);my $sum = 0;foreach my $num (@array) {    $sum += $num;}print "Sum: $sum\n";
