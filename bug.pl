@@ -1,0 +1,1 @@
+my @array = (1..10);my $sum = 0;foreach my $num (@array) {    $sum += $num;    if ($sum > 50) {        last; # Exit the loop early    }}print "Sum: $sum\n";
